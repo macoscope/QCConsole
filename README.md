@@ -35,6 +35,7 @@ Download and place the plugin file _QCConsole.plugin_ in the `"/Users/_[YOUR_USE
 
 Add a _”Print to Console"_ patch to your composition and connect its input port with an interesting value and voilà...
 Run your composition, the plugin will open the console window displaying all of the received values in one table.
+You can watch an example here https://vimeo.com/83716959
 
 **TIP:** you can use as many patch instances as you need (it's useful in complicated macros) - all the data will land in the same console window.
 
@@ -43,7 +44,7 @@ Run your composition, the plugin will open the console window displaying all of 
 
 ## Contact
 
-Any suggestions or improvements are more than welcome. Feel free to contact me at daniel@macoscope.com or @dannyow
+Any suggestions or improvements are more than welcome. Feel free to contact me at daniel@macoscope.com or [@dannyow](http://twitter.com/dannyow)
 
 
 ## Credits
