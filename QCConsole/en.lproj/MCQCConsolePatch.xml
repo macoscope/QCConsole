@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--optional-->
+<!--
+	<key>.identifiers</key>
+	<dict>
+		<key>[an identifier]</key>
+		<dict>
+			<key>nodeAttributes</key>
+			...[values to override for this identifier]...
+			<key>inputAttributes</key>
+			<key>outputAttributes</key>
+		</dict>
+	</dict>
+-->
+	<!--required-->
+	<key>nodeAttributes</key>
+	<dict>
+		<key>name</key>
+		<string>Print to Console</string>
+		<key>categories</key>
+		<array>
+			<string>Macoscope</string>
+		</array>
+		<key>copyright</key>
+		<string>2013 Macoscope. All rights reserved.
+
+Created by: Daniel Owsianski (@dannyow)</string>
+		<key>description</key>
+		<string>Dumps the input value to the dedicated console window.
+
+QCConsole 1.0
+http://github.com/macoscope/QCConsole
+        </string>
+		<key>aliasNames</key>
+		<array>
+			<string>trace</string>
+			<string>print</string>
+			<string>printf</string>
+			<string>put</string>
+			<string>console</string>
+			<string>log</string>
+			<string>debug</string>
+			<string>dump</string>
+		</array>
+<!--
+	examples are automatically prepended with `file://localhost/Developer//Library/Quartz%20Composer/Examples/Patches//`, so it's not too useful to us..
+		<key>examples</key>
+		<array>
+			<string>example.qtz</string>
+		</array>
+-->
+	</dict>
+	<key>inputAttributes</key>
+	<dict>
+		<key>inputValue</key>
+		<dict>
+			<key>name</key>
+			<string>Input Value</string>
+			<key>description</key>
+			<string>Value to print out on the console.</string>
+			<key>menu</key>
+			<array>
+				<string>Value</string>
+			</array>
+		</dict>
+	</dict>
+	
+</dict>
+</plist>
